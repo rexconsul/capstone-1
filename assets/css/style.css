@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.header {
+    padding-top: 150px;
+}
+
+.top {
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/header-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ededed;
+    height: 100%; 
+}
+
+.navbar {
+    background: rgba(227,227,227,0.4);
+    color: black;
+    font-weight: 600;
+}
+
+.btn {
+    border: 1px solid #ededed;
+    color: #ededed;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ededed
+}
+
+.skills img {
+    width: 5em;
+    padding: ;
+}
+
+#logo {
+    width: 8em;
+    height: auto;
+}
+
+#profile-pic {
+    width: 20em;
+    height: auto;
+    border: 1px solid #151983;
+    border-radius: 50%;
+}
