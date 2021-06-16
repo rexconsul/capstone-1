@@ -1,11 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
     font-size: 1rem;
     font-family: 'Inconsolata', monospace;
 }
@@ -28,7 +30,7 @@ html, body {
     font-weight: 600;
 }
 
-.btn {
+#header-button {
     border: 1px solid #ededed;
     color: #ededed;
     margin-top: 5px;
@@ -36,13 +38,39 @@ html, body {
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #ededed
+#header-button:hover {
+    background-color: #ededed;
+    color: black;
+
 }
 
 .skills img {
     width: 5em;
-    padding: ;
+}
+
+.projects{
+    margin-top: 10rem;
+}
+
+.card {
+    margin: auto;
+    padding: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.projects {
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/projects-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.projects h1 {
+    color: #ededed;;
 }
 
 #logo {
