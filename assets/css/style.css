@@ -25,9 +25,9 @@ html, body {
 }
 
 .navbar {
-    background: rgba(227,227,227,0.4);
+    background: rgba(227,227,227,0.3);
     color: black;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #header-button {
@@ -73,14 +73,67 @@ html, body {
     color: #ededed;;
 }
 
+.contact h1 {
+    text-align: center;
+}
+
+.map-wrapper {
+    max-width: 500px;
+}
+
+.google-map {
+    width: 100%;
+}
+
+.form-label {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.footer-icon {
+    width: 2em;
+    height: auto;
+    margin: 0px 10px 20px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.social-container {
+    margin-top: 25px;
+}
+
+.social-icon {
+    width: 3em;
+    height: auto;
+    padding: 0px 5px 0px;
+}
+
+.contact-icon {
+    width: 1.5em;
+    height: auto;
+}
+
+.copyright {
+    font-size: 15px;
+    padding-top: 50px; 
+}
+
 #logo {
-    width: 8em;
+    width: 9em;
+    height: auto;
+}
+
+#logo-footer {
+    width: 12em;
     height: auto;
 }
 
 #profile-pic {
     width: 20em;
     height: auto;
-    border: 1px solid #151983;
+    border: 1px solid #001F3D;
     border-radius: 50%;
 }
