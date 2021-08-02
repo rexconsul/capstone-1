@@ -1,158 +1,182 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    font-size: 1rem;
-    font-family: 'Inconsolata', monospace;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-family: "Inconsolata", monospace;
 }
 
 .header {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .top {
-    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/header-photo.jpg);
-    background-size: cover;
-    background-position: center;
-    color: #ededed;
-    height: 100%; 
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+    url(../images/header-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ededed;
+  height: 100%;
 }
 
 .navbar {
-    background: rgba(227,227,227,0.3);
-    color: black;
-    font-weight: 800;
+  background: rgba(227, 227, 227, 0.3);
+  color: black;
+  font-weight: 800;
 }
 
+/* #typing {
+  position: relative;
+}
+
+#typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  border-right: 2px solid white;
+  animation: blink 0.75s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
 #header-button {
-    border: 1px solid #ededed;
-    color: #ededed;
-    margin-top: 5px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  border: 1px solid #ededed;
+  color: #ededed;
+  margin-top: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 #header-button:hover {
-    background-color: #ededed;
-    color: black;
-
+  background-color: #ededed;
+  color: black;
 }
 
 #about-me-header {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #about-me-text {
-    text-align: justify;
+  text-align: justify;
 }
 
 #cv-button {
-    margin: 30px 0px;
-    display: flex;
-    flex-direction: row-reverse;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #cv-button a {
-    flex-shrink: 1;
-    flex-basis: 200px;
+  flex-shrink: 1;
+  flex-basis: 200px;
 }
 
 .skills img {
-    width: 5em;
-}
-
-.projects{
-    margin-top: 10rem;
-}
-
-.card {
-    margin: auto;
-    padding: auto;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
+  width: 5em;
 }
 
 .projects {
-    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/projects-bg.jpg);
-    background-size: cover;
-    background-position: center;
+  margin-top: 10rem;
+}
+
+.card {
+  margin: auto;
+  padding: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.projects {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+    url(../images/projects-bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .projects h1 {
-    color: #ededed;;
+  color: #ededed;
 }
 
 .contact h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .map-wrapper {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .google-map {
-    width: 100%;
+  width: 100%;
 }
 
 .form-label {
-    font-size: 20px;
-    font-weight: 400px;
+  font-size: 20px;
+  font-weight: 400px;
 }
 
 .footer-icon {
-    width: 2em;
-    height: auto;
-    margin: 0px 10px 20px;
+  width: 2em;
+  height: auto;
+  margin: 0px 10px 20px;
 }
 
 .links {
-    text-decoration: none;
-    font-size: 1.25rem;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
 
 .social-container {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .social-icon {
-    width: 3em;
-    height: auto;
-    padding: 0px 5px 0px;
+  width: 3em;
+  height: auto;
+  padding: 0px 5px 0px;
 }
 
 .contact-icon {
-    width: 1.5em;
-    height: auto;
+  width: 1.5em;
+  height: auto;
 }
 
 .copyright {
-    font-size: 15px;
-    padding-top: 50px; 
+  font-size: 15px;
+  padding-top: 50px;
 }
 
 #logo {
-    width: 9em;
-    height: auto;
+  width: 9em;
+  height: auto;
 }
 
 #logo-footer {
-    width: 12em;
-    height: auto;
+  width: 12em;
+  height: auto;
 }
 
 #profile-pic {
-    width: 20em;
-    height: auto;
-    border: 1px solid #001F3D;
-    border-radius: 50%;
+  width: 20em;
+  height: auto;
+  border: 1px solid #001f3d;
+  border-radius: 50%;
 }

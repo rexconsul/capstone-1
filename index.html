@@ -1,259 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rex Consul</title>
-    <link rel="icon" href="./assets/images/Icons/home-icon.png">
+    <link rel="icon" href="./assets/images/Icons/home-icon.png" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <!-- External CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Navbar and header -->
     <section class="top">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container navBar">
-                <a class="navbar-brand" href="#top"><img src="./assets/images/logo/vector/default-monochrome.svg"
-                        alt="logo" id="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#top">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aboutme">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end of brand -->
-            </div>
-            <!-- end of container -->
-        </nav>
-        <!-- end of Navbar -->
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container navBar">
+          <a class="navbar-brand" href="#top"
+            ><img
+              src="./assets/images/logo/vector/default-monochrome.svg"
+              alt="logo"
+              id="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#top"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end of brand -->
+        </div>
+        <!-- end of container -->
+      </nav>
+      <!-- end of Navbar -->
 
-        <!-- Header -->
-        <section class="header" id="top">
-            <div class="container pt-3">
-                <div class="row justify-content-end">
-                    <div class="col-6 p-5">
-                        <h1 class="display-2">Hi! I'm Rex</h1>
-                        <p class="lead">Software Engineer</p>
-                        <a href="#projects" class="btn" id="header-button">View my Projects</a>
-                    </div>
-                </div>
+      <!-- Header -->
+      <section class="header" id="top">
+        <div class="container pt-3">
+          <div class="row justify-content-end">
+            <div class="col-6 p-5">
+              <h1 class="display-1">Hi! I'm Rex</h1>
+              <p class="lead" id="typing">Future Software Engineer</p>
+              <a href="#projects" class="btn" id="header-button"
+                >View my Projects</a
+              >
             </div>
-        </section>
-        <!-- end of Header -->
+          </div>
+        </div>
+      </section>
+      <!-- end of Header -->
     </section>
     <!-- end of navbar and header -->
 
     <!-- About Me -->
     <section class="aboutme mb-5" id="aboutme">
-        <div class="container pt-4">
-            <div class="row">
-                <div class="col text-center">
-                    <h1 class="display-2">About Me</h1>
-                </div>
-            </div>
-            <div class="row pt-4 align-items-center">
-                <div class="col-md-auto text-center pt-2">
-                    <img src="./assets/images/profile-pic.JPG" alt="profile-pic" id="profile-pic">
-                </div>
-                <div class="col-auto col-md mx-auto skills pt-2">
-                    <h1 class="display-3" id="about-me-header">A Quick Story About Myself</h1>
-                    <p class="lead m-3" id="about-me-text">
-                        My name is Regin Rex Consul. I'm a graduate of B.S. in Petroleum Engineering. I love to play
-                        Badminton and Video games as my hobby. Though I may not be a graduate of any Computer Literate
-                        Degree, I'm willing to learn new skills and knowledge to better improve my ability in
-                        programming. I'm aiming to successfully shift my career to software engineering and learn more
-                        skills to computer programming.
-                    </p>
-                    <div id="cv-button">
-                        <a href="./resume/Resume Regin Rex Consul.pdf" class="btn btn-dark" target="blank">View my
-                            CV</a>
-                    </div>
-                    <div class="class">
-                        <h2 class="display-5 mb-3">Technology I've used</h2>
-                        <div class="d-flex flex-row justify-content-around flex-wrap align-">
-                            <img class="m-3" src="./assets/images/Icons/html.png" alt="html">
-                            <img class="m-3" src="./assets/images/Icons/css-3.png" alt="csst">
-                            <img class="m-3" src="./assets/images/Icons/java-script.png" alt="javascipt">
-                            <img class="m-3" src="./assets/images/Icons/git-logo.png" alt="gitlab">
-                            <img class="m-3" src="./assets/images/Icons/chrome.png" alt="chrome">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-2">About Me</h1>
+          </div>
         </div>
+        <div class="row pt-4 align-items-center">
+          <div class="col-md-auto text-center pt-2">
+            <img
+              src="./assets/images/profile-pic.JPG"
+              alt="profile-pic"
+              id="profile-pic"
+            />
+          </div>
+          <div class="col-auto col-md mx-auto skills pt-2">
+            <h1 class="display-3" id="about-me-header">
+              A Quick Story About Myself
+            </h1>
+            <p class="lead m-3" id="about-me-text">
+              My name is Regin Rex Consul. I'm a graduate of B.S. in Petroleum
+              Engineering. I love to play Badminton and Video games as my hobby.
+              Though I may not be a graduate of any Computer Literate Degree,
+              I'm willing to learn new skills and knowledge to better improve my
+              ability in programming. I'm aiming to successfully shift my career
+              to software engineering and learn more skills to computer
+              programming.
+            </p>
+            <div id="cv-button">
+              <a
+                href="./resume/Resume Regin Rex Consul.pdf"
+                class="btn btn-dark"
+                target="blank"
+                >View my CV</a
+              >
+            </div>
+            <div class="class">
+              <h2 class="display-5 mb-3">Technology I've used</h2>
+              <div
+                class="d-flex flex-row justify-content-around flex-wrap align-"
+              >
+                <img
+                  class="m-3"
+                  src="./assets/images/Icons/html.png"
+                  alt="html"
+                />
+                <img
+                  class="m-3"
+                  src="./assets/images/Icons/css-3.png"
+                  alt="csst"
+                />
+                <img
+                  class="m-3"
+                  src="./assets/images/Icons/java-script.png"
+                  alt="javascipt"
+                />
+                <img
+                  class="m-3"
+                  src="./assets/images/Icons/git-logo.png"
+                  alt="gitlab"
+                />
+                <img
+                  class="m-3"
+                  src="./assets/images/Icons/chrome.png"
+                  alt="chrome"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end of About me -->
 
     <!-- Project -->
     <section class="projects mb-5" id="projects">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center mb-5 pt-3">
-                    <h1 class="display-2">My Projects</h1>
-                </div>
-            </div>
-            <!-- card section -->
-            <div class="row g-4 pb-5">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/images/e commerce-page.png" class="img-fluid card-img-top" alt="e-commerce">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>E-Commerce Webpage</strong></h5>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-dark" id="project-button"
-                                target="blank">Visit Code</a>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-outline-dark" target="blank">Visit
-                                Site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/images/restaurant-page.png" class="card-img-top" alt="restaurant-page.png">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Restaurant Landing Page</strong></h5>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-dark" id="project-button"
-                                target="blank">Visit Code</a>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-outline-dark" target="blank">Visit
-                                Site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/images/travel-page.jpg" class="card-img-top" alt="travel-page">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Online Travel Agency Webpage</strong></h5>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-dark" id="project-button"
-                                target="blank">Visit Code</a>
-                            <a href="https://gitlab.com/consulrex" class="btn btn-outline-dark" target="blank">Visit
-                                Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center mb-5 pt-3">
+            <h1 class="display-2">My Projects</h1>
+          </div>
         </div>
+        <!-- card section -->
+        <div class="row g-4 pb-5">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/images/e commerce-page.png"
+                class="img-fluid card-img-top"
+                alt="e-commerce"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong>E-Commerce Webpage</strong></h5>
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-dark"
+                  id="project-button"
+                  target="blank"
+                  >Visit Code</a
+                >
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Visit Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/images/restaurant-page.png"
+                class="card-img-top"
+                alt="restaurant-page.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <strong>Restaurant Landing Page</strong>
+                </h5>
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-dark"
+                  id="project-button"
+                  target="blank"
+                  >Visit Code</a
+                >
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Visit Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/images/travel-page.jpg"
+                class="card-img-top"
+                alt="travel-page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <strong>Online Travel Agency Webpage</strong>
+                </h5>
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-dark"
+                  id="project-button"
+                  target="blank"
+                  >Visit Code</a
+                >
+                <a
+                  href="https://gitlab.com/consulrex"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Visit Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end of Project -->
 
     <!-- Contact Me -->
     <section class="contact" id="contact">
-        <h1 class="display-2 mb-5">Contact Me</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 col-md-8">
-                    <div class="map-wrapper">
-                        <iframe class="google-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.051416890051!2d118.73378341439917!3d9.761712393014774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b563bbeafde43b%3A0xcd2fe8caa19c92c8!2sBarangay%20San%20Pedro%2C%20Puerto%20Princesa%2C%20Palawan!5e0!3m2!1sen!2sph!4v1623857352064!5m2!1sen!2sph"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-6 col-md-4 mx-auto mb-4">
-                    <form>
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" name="" class="form-control mb-2" placeholder="John Doe">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="text" name="" class="form-control mb-2" placeholder="example@yahoo.com">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control mb-2" rows="3"></textarea>
-                        <buton class="btn btn-dark mt-3">Submit</buton>
-                    </form>
-                </div>
+      <h1 class="display-2 mb-5">Contact Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-8">
+            <div class="map-wrapper">
+              <iframe
+                class="google-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.051416890051!2d118.73378341439917!3d9.761712393014774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b563bbeafde43b%3A0xcd2fe8caa19c92c8!2sBarangay%20San%20Pedro%2C%20Puerto%20Princesa%2C%20Palawan!5e0!3m2!1sen!2sph!4v1623857352064!5m2!1sen!2sph"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
             </div>
+          </div>
+          <div class="col-6 col-lg-6 col-md-4 mx-auto mb-4">
+            <form>
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                name=""
+                class="form-control mb-2"
+                placeholder="John Doe"
+              />
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="text"
+                name=""
+                class="form-control mb-2"
+                placeholder="example@yahoo.com"
+              />
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control mb-2" rows="3"></textarea>
+              <button class="btn btn-dark mt-3">Submit</button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
     <!-- end of Contact -->
 
     <!-- Footer -->
     <footer class="bg-dark">
-        <div class="container">
-            <div class="row align-self-center">
-                <div class="col-lg-4 pt-4 mb-5">
-                    <img src="./assets/images/logo/vector/default-monochrome-white.svg" id="logo-footer" alt="">
-                    <div class="social-container">
-                        <a href="https://www.facebook.com/theRexConsul" target="blank"><img
-                                src="./assets/images/Icons/facebook.png" class="social-icon" alt="facebook"></a>
-                        <a href="https://www.instagram.com/rexconsul/" target="blank"><img
-                                src="./assets/images/Icons/instagram.png" class="social-icon" alt=""></a>
-                        <a href="https://gitlab.com/consulrex" target="blank"><img
-                                src="./assets/images/Icons/gitlab-logo.png" class="social-icon" alt=""></a>
-                        <a href="https://www.linkedin.com/in/rexconsul/" target="blank"><img
-                                src="./assets/images/Icons/linkedin.png" class="social-icon" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 pt-4 mb-5">
-                    <h2 class="text-white mb-4">Quick Links</h2>
-                    <p>
-                        <a href="#top" class="text-white links">Home</a>
-                    </p>
-                    <p>
-                        <a href="#aboutme" class="text-white links">About</a>
-                    </p>
-                    <p>
-                        <a href="#projects" class="text-white links">Projects</a>
-                    </p>
-                </div>
-                <div class="col-lg-4 pt-4">
-                    <h2 class="text-white mb-4">Contact</h2>
-                    <p class="text-white">
-                        <img src="./assets/images/Icons/gmail.png" alt="gmail" class="contact-icon">
-                        reginrexconsul@gmail.com
-                    </p>
-                    <p class="text-white pt-2">
-                        <img src="./assets/images/Icons/phone-call.png" alt="phone" class="contact-icon"> (+63)
-                        905-363-1246
-                    </p>
-                </div>
+      <div class="container">
+        <div class="row align-self-center">
+          <div class="col-lg-4 pt-4 mb-5">
+            <img
+              src="./assets/images/logo/vector/default-monochrome-white.svg"
+              id="logo-footer"
+              alt=""
+            />
+            <div class="social-container">
+              <a href="https://www.facebook.com/theRexConsul" target="blank"
+                ><img
+                  src="./assets/images/Icons/facebook.png"
+                  class="social-icon"
+                  alt="facebook"
+              /></a>
+              <a href="https://www.instagram.com/rexconsul/" target="blank"
+                ><img
+                  src="./assets/images/Icons/instagram.png"
+                  class="social-icon"
+                  alt=""
+              /></a>
+              <a href="https://gitlab.com/consulrex" target="blank"
+                ><img
+                  src="./assets/images/Icons/gitlab-logo.png"
+                  class="social-icon"
+                  alt=""
+              /></a>
+              <a href="https://www.linkedin.com/in/rexconsul/" target="blank"
+                ><img
+                  src="./assets/images/Icons/linkedin.png"
+                  class="social-icon"
+                  alt=""
+              /></a>
             </div>
-            <div class="row text-center">
-                <div class="col-12 copyright">
-                    <p class="text-white">
-                        Copyright &copy; 2021
-                    </p>
-                </div>
-            </div>
+          </div>
+          <div class="col-lg-4 pt-4 mb-5">
+            <h2 class="text-white mb-4">Quick Links</h2>
+            <p>
+              <a href="#top" class="text-white links">Home</a>
+            </p>
+            <p>
+              <a href="#aboutme" class="text-white links">About</a>
+            </p>
+            <p>
+              <a href="#projects" class="text-white links">Projects</a>
+            </p>
+          </div>
+          <div class="col-lg-4 pt-4">
+            <h2 class="text-white mb-4">Contact</h2>
+            <p class="text-white">
+              <img
+                src="./assets/images/Icons/gmail.png"
+                alt="gmail"
+                class="contact-icon"
+              />
+              reginrexconsul@gmail.com
+            </p>
+            <p class="text-white pt-2">
+              <img
+                src="./assets/images/Icons/phone-call.png"
+                alt="phone"
+                class="contact-icon"
+              />
+              (+63) 905-363-1246
+            </p>
+          </div>
         </div>
+        <div class="row text-center">
+          <div class="col-12 copyright">
+            <p class="text-white">Copyright &copy; 2021</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
-
-
-
-
-
-
-
     <!-- Bootstrap Dependency -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
