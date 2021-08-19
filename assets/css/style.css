@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   font-size: 1rem;
   font-family: "Inconsolata", monospace;
+  scroll-behavior: smooth;
 }
 
 .header {
