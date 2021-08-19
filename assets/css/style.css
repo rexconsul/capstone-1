@@ -71,6 +71,7 @@ body {
 
 .projects {
   margin-top: 10rem;
+  /* padding-bottom: 3rem; */
 }
 
 .card {
@@ -93,10 +94,12 @@ body {
 
 .projects h1 {
   color: #ededed;
+  min-height: 100%;
 }
 
 .contact h1 {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .map-wrapper {
